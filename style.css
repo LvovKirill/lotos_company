@@ -654,6 +654,12 @@ footer span{
 .footer_wrap1 span{
     white-space: nowrap;
     text-decoration: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
 }
 
 
@@ -2713,7 +2719,7 @@ border: 2px solid #ECB371;
         background-repeat: no-repeat;
         background-size: cover;
         margin-inline: 100px;
-        height: 500px;
+        height: 306px;
         width: 90vw;
         background-color: black;
         border-radius: 20px;
