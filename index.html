@@ -602,9 +602,10 @@ let dialog = document.getElementById('dialog')
 
 function btnClick(){
 
+
     if(telInput.value.length != 17){
-         alert('Номер телефона введён не верно') 
-        }else if(!(document.querySelector('.checkbox:checked').value)){
+            alert('Номер телефона введён не верно') 
+        }else if(!document.querySelector('.checkbox').checked){
             alert('Вы согласны на обработку персональных данных?')
         }else{
             sendMail()
