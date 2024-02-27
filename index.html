@@ -420,7 +420,7 @@
 
             <div class="section5_wrap1">
             <span class="section5_span_heading">Электронная почта:</span>
-            <a class="section5_span_information_email" href="mailto:lotos_ag@mail.ru">lotos_ag@mail.ru</a>
+            <a class="section5_span_information_email" href="mailto:lotos_ag@mail.ru">lotoslaw@bk.ru</a>
             </div>
 
         </div>
@@ -614,22 +614,70 @@ function btnClick(){
 
 }
 
-function sendMail() {
+// function sendMail() {
+
+// (function(){
+//     emailjs.init("q2BXDiVoMJjNX1Ax8");
+// })();
+
+// // var params = {
+// //     sendername: document.querySelector('#tel_input'),
+// //     to: 'lvovdevelop@gmail.com',
+// //     subject: 'Заявка',
+// //     replyto: 'lvovdevelop@gmail.com',
+// //     message: "Поступила новая заявка от пользователя с номером телефона: " + document.querySelector('#tel_input').value,
+// // };
+
+// var params = {
+//     sendername: document.querySelector('#tel_input'),
+//     to: 'lvovdevelop@gmail.com',
+//     subject: 'Заявка',
+//     replyto: 'lvovdevelop@gmail.com',
+//     message: "Поступила новая заявка от пользователя с номером телефона: " + document.querySelector('#tel_input').value,
+// };
+
+// var serviceID = "service_dmfg7ad";
+// var templateID = "template_t6ww2qc";
+
+// // dialog.style.opacity = '1'
+// //     telInput.value = '';
+
+// dialog.classList.toggle("is-visible");
+
+//     setTimeout(() => {
+//     // dialog.style.opacity = '0'
+//     dialog.classList.toggle("is-visible");
+//         }, 4000);
+
+// emailjs.send(serviceID, templateID, params)
+    
+// }
+
+function sendMail(){
 
 (function(){
-    emailjs.init("q2BXDiVoMJjNX1Ax8");
+    emailjs.init("l6goGUJ3IhtGnrpdL");
 })();
+
+// var params = {
+//     sendername: document.querySelector('#tel_input'),
+//     to: 'lvovdevelop@gmail.com',
+//     subject: 'Заявка',
+//     replyto: 'lvovdevelop@gmail.com',
+//     message: "Поступила новая заявка от пользователя с номером телефона: " + document.querySelector('#tel_input').value,
+// };
 
 var params = {
     sendername: document.querySelector('#tel_input'),
-    to: 'lvovdevelop@gmail.com',
+    to: 'lotoslaw@bk.ru',
     subject: 'Заявка',
-    replyto: 'lvovdevelop@gmail.com',
+    replyto: 'lotoslaw@bk.ru',
     message: "Поступила новая заявка от пользователя с номером телефона: " + document.querySelector('#tel_input').value,
+    username: "Lotos"
 };
 
-var serviceID = "service_dmfg7ad";
-var templateID = "template_t6ww2qc";
+var serviceID = "service_wddpg7m";
+var templateID = "template_uunj8h6";
 
 // dialog.style.opacity = '1'
 //     telInput.value = '';
@@ -643,6 +691,7 @@ dialog.classList.toggle("is-visible");
 
 emailjs.send(serviceID, templateID, params)
     
+
 }
 
 
