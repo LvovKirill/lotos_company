@@ -197,7 +197,7 @@ header{
 }
 
 .section1_wrap3{
-    padding-top: 10%;
+    padding-top: 20%;
     /* transform: translateY(-10%); */
     display: inline-block;
     width: 60vw;
@@ -308,10 +308,11 @@ header{
     flex-direction: column;
     justify-content: center;
     margin-inline: 100px;
+    margin-top: 200px;
 }
 
 .section3_heading{
-    margin-top: 90px;
+    margin-top: 0px;
     font-size: 64px;
     padding-block: 20px;
     color: #414141;
@@ -469,6 +470,7 @@ header{
     padding-inline: 100px;
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
 }
 
 .section5 h1{
@@ -854,7 +856,7 @@ header{
 }
 
 .section1_wrap3{
-    padding-top: 15%;
+    padding-top: 25%;
     display: inline-block;
     width: 60vw;
 }
@@ -967,6 +969,7 @@ header{
     flex-direction: column;
     justify-content: center;
     margin-inline: 100px;
+    margin-top: 100px;
 }
 
 .section3_heading{
@@ -1126,6 +1129,7 @@ header{
     padding-inline: 100px;
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
 }
 
 .section5 h1{
@@ -1900,6 +1904,7 @@ border-collapse: collapse;
     padding-inline: 100px;
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
 }
 
 
